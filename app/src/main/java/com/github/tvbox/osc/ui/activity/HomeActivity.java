@@ -259,7 +259,7 @@ public class HomeActivity extends BaseActivity {
                 tvName.setText(home.getName());
             }
             else {
-            tvName.setText("四个圈影视    " + home.getName());
+            tvName.setText("欣桥影视    " + home.getName());
             }
         }
         
