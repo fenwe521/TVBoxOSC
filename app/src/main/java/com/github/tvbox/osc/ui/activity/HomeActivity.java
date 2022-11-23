@@ -255,7 +255,7 @@ public class HomeActivity extends BaseActivity {
     private void initData() {
         SourceBean home = ApiConfig.get().getHomeSourceBean();
         if (home != null && home.getName() != null && !home.getName().isEmpty()) {
-            if (home.getName() == "四个圈影视") {
+            if (home.getName() == "欣桥影视") {
                 tvName.setText(home.getName());
             }
             else {
